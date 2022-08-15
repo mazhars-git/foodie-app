@@ -27,9 +27,13 @@ export default function GridTemplateColumns() {
   return (
     <div style={{ width: '100%' }}>
       <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
-        <Item>1</Item>
-        <Item>2</Item>
-        <Item>3</Item>
+        <Item>
+            <h3>O-Shop</h3>
+        </Item>
+        <Item>
+            <h3>Categories</h3>
+        </Item>
+        <Item><h3>About Us</h3></Item>
       </Box>
     </div>
   );
