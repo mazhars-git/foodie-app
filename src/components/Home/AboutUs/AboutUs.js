@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Box, { BoxProps } from '@mui/material/Box';
-import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
+// import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
+import { Email, Home, LocationCity, PhoneInTalk } from '@material-ui/icons';
 
 function Item(props: BoxProps) {
   const { sx, ...other } = props;
@@ -46,10 +47,9 @@ export default function GridTemplateColumns() {
         <Item>
             <h3>Contact Us</h3>
             <ul>
-                {/* <AccessAlarm /> */}
-                <li><a href="#">+88013090755551</a></li>
-                <li><a href="#">oshop24@gmail.com</a></li>
-                <li><a href="#">86/6, East Maniknagar, Dhaka</a></li>
+                <li><a href="#"><PhoneInTalk /> +88013090755551</a></li>
+                <li><a href="#"><Email /> oshop24@gmail.com</a></li>
+                <li><a href="#"><LocationCity /> 86/6, East Maniknagar, Dhaka</a></li>
             </ul>
         </Item>
       </Box>
