@@ -8,7 +8,7 @@ function Item(props: BoxProps) {
       sx={{
         bgcolor: (theme) => (theme.palette.mode === 'dark' ? '#101010' : '#fff'),
         color: (theme) => (theme.palette.mode === 'dark' ? 'grey.300' : 'grey.800'),
-        border: '1px solid',
+        border: 'none',
         borderColor: (theme) =>
           theme.palette.mode === 'dark' ? 'grey.800' : 'grey.300',
         p: 1,
@@ -33,7 +33,15 @@ export default function GridTemplateColumns() {
         <Item>
             <h3>Categories</h3>
         </Item>
-        <Item><h3>About Us</h3></Item>
+        <Item>
+          <h3>About Us</h3>
+          <ul>
+            <li><a href="#">Carrier</a></li>
+            <li><a href="#">Our Policy</a></li>
+            <li><a href="#">O-Shop Team</a></li>
+            <li><a href="#">Location</a></li>
+          </ul>
+        </Item>
       </Box>
     </div>
   );
