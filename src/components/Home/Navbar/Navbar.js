@@ -177,7 +177,7 @@ const Navbar = () => {
             <MenuIcon />
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap>
-            My Menu
+            O-Shop
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>

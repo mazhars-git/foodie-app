@@ -26,7 +26,7 @@ function Item(props: BoxProps) {
 export default function GridTemplateColumns() {
   return (
     <div style={{ width: '100%' }}>
-      <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
+      <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)' }}>
         <Item>
             <h3>O-Shop</h3>
         </Item>
@@ -41,6 +41,14 @@ export default function GridTemplateColumns() {
             <li><a href="#">O-Shop Team</a></li>
             <li><a href="#">Location</a></li>
           </ul>
+        </Item>
+        <Item>
+            <h3>Contact Us</h3>
+            <ul>
+                <li><a href="#">+88013090755551</a></li>
+                <li><a href="#">oshop24@gmail.com</a></li>
+                <li><a href="#">86/6, East Maniknagar, Dhaka</a></li>
+            </ul>
         </Item>
       </Box>
     </div>
