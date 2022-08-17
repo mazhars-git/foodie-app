@@ -2,6 +2,7 @@ import * as React from 'react';
 import Box, { BoxProps } from '@mui/material/Box';
 // import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
 import { Email, Home, LocationCity, PhoneInTalk } from '@material-ui/icons';
+import '../../Css/aboutUs.css';
 
 function Item(props: BoxProps) {
   const { sx, ...other } = props;
@@ -35,7 +36,7 @@ export default function GridTemplateColumns() {
         <Item>
             <h3>Categories</h3>
         </Item>
-        <Item>
+        <Item className="about">
           <h3>About Us</h3>
           <ul>
             <li><a href="#">Carrier</a></li>
@@ -44,7 +45,7 @@ export default function GridTemplateColumns() {
             <li><a href="#">Location</a></li>
           </ul>
         </Item>
-        <Item>
+        <Item className="contact">
             <h3>Contact Us</h3>
             <ul>
                 <li><a href="#"><PhoneInTalk /> +88013090755551</a></li>

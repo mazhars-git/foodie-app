@@ -1,0 +1,9 @@
+.contact ul li{
+    list-style: none;
+}
+
+.contact ul li a{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
