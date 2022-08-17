@@ -1,9 +1,10 @@
-.contact ul li{
+.contact ul li, .about ul li, .categories ul li{
     list-style: none;
 }
 
-.contact ul li a{
+.contact ul li a, .about ul li a, .categories ul li a{
     display: flex;
     list-style-type: none;
     text-decoration: none;
 }
+

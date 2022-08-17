@@ -32,9 +32,16 @@ export default function GridTemplateColumns() {
       <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)' }}>
         <Item>
             <h3>O-Shop</h3>
+            <p>Logo</p>
         </Item>
-        <Item>
+        <Item className="categories">
             <h3>Categories</h3>
+            <ul>
+            <li><a href="#">Grocery & Staples</a></li>
+            <li><a href="#">Dry Fruits</a></li>
+            <li><a href="#">Soft Drinks</a></li>
+            <li><a href="#">Masala</a></li>
+          </ul>
         </Item>
         <Item className="about">
           <h3>About Us</h3>
