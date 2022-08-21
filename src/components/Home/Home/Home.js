@@ -1,7 +1,7 @@
 import React from 'react';
 import AboutUs from '../AboutUs/AboutUs';
 import Navbar from '../Navbar/Navbar';
-import Footer from './../Footer/Footer';
+import Footer from '../../Shared/Footer/Footer';
 
 const Home = () => {
     return (
